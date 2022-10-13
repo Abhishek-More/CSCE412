@@ -13,7 +13,7 @@ public:
 
   Request()
   {
-    this->time = rand() % 10 + 1;
+    this->time = rand() % 500 + 1;
     this->origTime = this->time;
     this->toIP = this->generateIP();
     this->fromIP = this->generateIP();
@@ -47,10 +47,12 @@ public:
 
   RequestQueue()
   {
+
   }
 
   RequestQueue(int requestNum)
   {
+    std::cout << "STARTING REQUESTS" << std::endl;
     for (int i = 0; i < requestNum; i++) {
       Request* req = new Request();
       std::cout << std::to_string(req->time) << " " << req->fromIP << " " << req->toIP << std::endl;
