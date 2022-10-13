@@ -1,0 +1,129 @@
+STARTING BALANCER
+Number of Servers: 10
+Percent chance of a new request: 1
+Runtime: 10000 clock cycles
+Starting Queue Size: 20
+Request time range: 1-500 clock cycles
+STARTING REQUESTS
+308 200.216.254.67 241.217.42.130
+210 179.71.23.17 152.85.140.226
+341 5.88.245.107 84.47.17.45
+279 72.51.98.65 136.7.153.146
+480 48.209.200.237 13.35.229.95
+246 57.129.132.184 12.75.2.53
+169 103.42.202.229 162.156.180.90
+25 196.21.138.229 233.197.241.176
+136 232.161.5.211 77.57.246.247
+95 217.228.91.250 237.165.213.243
+189 174.12.225.6 195.81.226.32
+145 161.30.25.253 109.97.255.52
+295 143.195.58.30 80.233.183.129
+400 122.200.171.80 192.44.68.85
+114 181.226.76.79 178.222.178.246
+322 206.31.242.97 159.136.103.189
+117 14.52.98.7 142.120.151.151
+320 41.142.91.162 94.71.161.88
+314 196.46.54.42 98.70.134.156
+395 6.135.239.83 115.18.100.230
+0| Server 0 has a new process that will take 308
+1| Server 1 has a new process that will take 210
+2| Server 2 has a new process that will take 341
+3| Server 3 has a new process that will take 279
+4| Server 4 has a new process that will take 480
+5| Server 5 has a new process that will take 246
+6| Server 6 has a new process that will take 169
+7| Server 7 has a new process that will take 25
+8| Server 8 has a new process that will take 136
+9| Server 9 has a new process that will take 95
+32| Server 7 has finished a process from 196.21.138.229 to 233.197.241.176 that took 25
+32| Server 7 has a new process that will take 189
+92| New request added to Queue
+104| Server 9 has finished a process from 217.228.91.250 to 237.165.213.243 that took 95
+104| Server 9 has a new process that will take 145
+115| New request added to Queue
+137| New request added to Queue
+139| New request added to Queue
+144| Server 8 has finished a process from 232.161.5.211 to 77.57.246.247 that took 136
+144| Server 8 has a new process that will take 295
+172| New request added to Queue
+175| Server 6 has finished a process from 103.42.202.229 to 162.156.180.90 that took 169
+175| Server 6 has a new process that will take 400
+211| Server 1 has finished a process from 179.71.23.17 to 152.85.140.226 that took 210
+211| Server 1 has a new process that will take 114
+221| Server 7 has finished a process from 174.12.225.6 to 195.81.226.32 that took 189
+221| Server 7 has a new process that will take 322
+238| New request added to Queue
+249| Server 9 has finished a process from 161.30.25.253 to 109.97.255.52 that took 145
+249| Server 9 has a new process that will take 117
+251| Server 5 has finished a process from 57.129.132.184 to 12.75.2.53 that took 246
+251| Server 5 has a new process that will take 320
+282| Server 3 has finished a process from 72.51.98.65 to 136.7.153.146 that took 279
+282| Server 3 has a new process that will take 314
+308| Server 0 has finished a process from 200.216.254.67 to 241.217.42.130 that took 308
+308| Server 0 has a new process that will take 395
+325| Server 1 has finished a process from 181.226.76.79 to 178.222.178.246 that took 114
+325| Server 1 has a new process that will take 257
+343| Server 2 has finished a process from 5.88.245.107 to 84.47.17.45 that took 341
+343| Server 2 has a new process that will take 445
+366| Server 9 has finished a process from 14.52.98.7 to 142.120.151.151 that took 117
+366| Server 9 has a new process that will take 255
+378| New request added to Queue
+424| New request added to Queue
+439| Server 8 has finished a process from 143.195.58.30 to 80.233.183.129 that took 295
+439| Server 8 has a new process that will take 427
+484| Server 4 has finished a process from 48.209.200.237 to 13.35.229.95 that took 480
+484| Server 4 has a new process that will take 21
+505| Server 4 has finished a process from 150.62.124.71 to 5.170.235.244 that took 21
+505| Server 4 has a new process that will take 300
+543| Server 7 has finished a process from 206.31.242.97 to 159.136.103.189 that took 322
+543| Server 7 has a new process that will take 90
+552| New request added to Queue
+571| Server 5 has finished a process from 41.142.91.162 to 94.71.161.88 that took 320
+571| Server 5 has a new process that will take 290
+575| Server 6 has finished a process from 122.200.171.80 to 192.44.68.85 that took 400
+575| Server 6 has a new process that will take 490
+582| Server 1 has finished a process from 206.30.24.100 to 60.149.216.232 that took 257
+596| New request added to Queue
+596| Server 1 has a new process that will take 97
+596| Server 3 has finished a process from 196.46.54.42 to 98.70.134.156 that took 314
+597| New request added to Queue
+597| Server 3 has a new process that will take 381
+618| New request added to Queue
+621| Server 9 has finished a process from 114.195.242.179 to 96.195.123.232 that took 255
+621| Server 9 has a new process that will take 138
+633| New request added to Queue
+633| Server 7 has finished a process from 103.210.208.57 to 118.177.78.14 that took 90
+633| Server 7 has a new process that will take 395
+693| Server 1 has finished a process from 221.196.21.248 to 123.10.39.175 that took 97
+703| Server 0 has finished a process from 6.135.239.83 to 115.18.100.230 that took 395
+707| New request added to Queue
+707| Server 0 has a new process that will take 460
+718| New request added to Queue
+718| Server 1 has a new process that will take 197
+725| New request added to Queue
+759| Server 9 has finished a process from 243.8.91.36 to 77.182.76.134 that took 138
+759| Server 9 has a new process that will take 163
+788| Server 2 has finished a process from 219.237.37.128 to 202.173.200.106 that took 445
+805| Server 4 has finished a process from 9.161.125.116 to 215.235.155.206 that took 300
+838| New request added to Queue
+838| Server 2 has a new process that will take 371
+861| Server 5 has finished a process from 181.140.80.234 to 25.139.38.87 that took 290
+866| Server 8 has finished a process from 185.16.50.98 to 139.201.89.2 that took 427
+884| New request added to Queue
+884| Server 4 has a new process that will take 260
+915| Server 1 has finished a process from 168.167.134.112 to 200.80.31.25 that took 197
+922| Server 9 has finished a process from 163.131.126.199 to 8.109.113.87 that took 163
+978| Server 3 has finished a process from 38.173.30.93 to 90.241.239.234 that took 381
+1017| New request added to Queue
+1017| Server 1 has a new process that will take 86
+1028| Server 7 has finished a process from 23.48.35.200 to 171.200.23.186 that took 395
+1056| New request added to Queue
+1056| Server 3 has a new process that will take 315
+1065| Server 6 has finished a process from 185.66.31.103 to 102.22.167.115 that took 490
+1103| Server 1 has finished a process from 198.132.23.7 to 211.84.20.128 that took 86
+1144| Server 4 has finished a process from 9.69.233.64 to 86.209.243.121 that took 260
+1167| Server 0 has finished a process from 56.151.153.131 to 58.136.154.2 that took 460
+1209| Server 2 has finished a process from 204.143.160.123 to 22.140.233.32 that took 371
+1371| Server 3 has finished a process from 82.91.250.37 to 40.239.93.213 that took 315
+ENDING QUEUE SIZE: 0
+0 still running

@@ -3,6 +3,9 @@
 #include <iostream>
 
 
+/**
+ * Contains Request data
+*/
 class Request {
 public:
   int time;

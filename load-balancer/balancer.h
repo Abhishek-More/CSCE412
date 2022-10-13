@@ -40,9 +40,9 @@ class WebServer {
 */
 class LoadBalancer {
   public:
-    int runtime;
-    int filled;
-    int chance; //
+    int runtime; //!< Max runtime for the program
+    int filled; //!< Number of servers that are currently running a request
+    int chance; //!< Percent chance of generating a new request per clock cycle
     std::vector<WebServer> servers;
     RequestQueue requestQueue;
 
@@ -54,6 +54,10 @@ class LoadBalancer {
       this->runtime = runtime;
     }
 
+    /**
+    * Runs the balancing algorithm for the servers and request queue.
+    * For each clock cycle, only one new request can be allocated.
+    */
     void balance()
     {
       int clock = 0;
