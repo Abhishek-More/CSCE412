@@ -82,33 +82,61 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e174eed4e42a15ebc0a6c3ee0c43dfe"><td class="memItemLeft" align="right" valign="top"><a id="a2e174eed4e42a15ebc0a6c3ee0c43dfe" name="a2e174eed4e42a15ebc0a6c3ee0c43dfe"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b> (int time, int startTime, std::string toIP, std::string fromIP)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b> (int <a class="el" href="class_request.html#a3cfb576ed0b5e08612f3de8bc7cd72e2">time</a>, int <a class="el" href="class_request.html#a4e787c39760a21a50f9bd80fac54e844">startTime</a>, std::string <a class="el" href="class_request.html#a37bd46e243942703160f674525ad9dbc">toIP</a>, std::string <a class="el" href="class_request.html#ac8a2f0167dc9d091828c13473468cf78">fromIP</a>)</td></tr>
 <tr class="separator:a2e174eed4e42a15ebc0a6c3ee0c43dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98035dabf015c3fff871ad54e8455a0c"><td class="memItemLeft" align="right" valign="top"><a id="a98035dabf015c3fff871ad54e8455a0c" name="a98035dabf015c3fff871ad54e8455a0c"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>generateIP</b> ()</td></tr>
+<tr class="memitem:a98035dabf015c3fff871ad54e8455a0c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_request.html#a98035dabf015c3fff871ad54e8455a0c">generateIP</a> ()</td></tr>
 <tr class="separator:a98035dabf015c3fff871ad54e8455a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3cfb576ed0b5e08612f3de8bc7cd72e2"><td class="memItemLeft" align="right" valign="top"><a id="a3cfb576ed0b5e08612f3de8bc7cd72e2" name="a3cfb576ed0b5e08612f3de8bc7cd72e2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>time</b></td></tr>
+<tr class="memdesc:a3cfb576ed0b5e08612f3de8bc7cd72e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of time the request needs to complete. Upon construction, it will be a random integer from 1-500. <br /></td></tr>
 <tr class="separator:a3cfb576ed0b5e08612f3de8bc7cd72e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa665f9de31f1015658936f319e3ad746"><td class="memItemLeft" align="right" valign="top"><a id="aa665f9de31f1015658936f319e3ad746" name="aa665f9de31f1015658936f319e3ad746"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>origTime</b></td></tr>
-<tr class="separator:aa665f9de31f1015658936f319e3ad746"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e787c39760a21a50f9bd80fac54e844"><td class="memItemLeft" align="right" valign="top"><a id="a4e787c39760a21a50f9bd80fac54e844" name="a4e787c39760a21a50f9bd80fac54e844"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>startTime</b></td></tr>
+<tr class="memdesc:a4e787c39760a21a50f9bd80fac54e844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clock cycle when the request began. <br /></td></tr>
 <tr class="separator:a4e787c39760a21a50f9bd80fac54e844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37bd46e243942703160f674525ad9dbc"><td class="memItemLeft" align="right" valign="top"><a id="a37bd46e243942703160f674525ad9dbc" name="a37bd46e243942703160f674525ad9dbc"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>toIP</b></td></tr>
+<tr class="memdesc:a37bd46e243942703160f674525ad9dbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destination IP. <br /></td></tr>
 <tr class="separator:a37bd46e243942703160f674525ad9dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8a2f0167dc9d091828c13473468cf78"><td class="memItemLeft" align="right" valign="top"><a id="ac8a2f0167dc9d091828c13473468cf78" name="ac8a2f0167dc9d091828c13473468cf78"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>fromIP</b></td></tr>
+<tr class="memdesc:ac8a2f0167dc9d091828c13473468cf78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Origin IP. <br /></td></tr>
 <tr class="separator:ac8a2f0167dc9d091828c13473468cf78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Contains <a class="el" href="class_request.html">Request</a> data </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a98035dabf015c3fff871ad54e8455a0c" name="a98035dabf015c3fff871ad54e8455a0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98035dabf015c3fff871ad54e8455a0c">&#9670;&#160;</a></span>generateIP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Request::generateIP </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Generates random IP address for origin or destination <br  />
+ </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="request_classes_8h_source.html">requestClasses.h</a></li>
 </ul>
 </div><!-- contents -->

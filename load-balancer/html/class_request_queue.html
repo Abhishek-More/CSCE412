@@ -76,23 +76,20 @@ $(function() {
   <div class="headertitle"><div class="title">RequestQueue Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="request_classes_8h_source.html">requestClasses.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3dcf6f1ad014bcce7c4489b0b8ba25d7"><td class="memItemLeft" align="right" valign="top"><a id="a3dcf6f1ad014bcce7c4489b0b8ba25d7" name="a3dcf6f1ad014bcce7c4489b0b8ba25d7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>RequestQueue</b> (int requestNum)</td></tr>
+<tr class="memitem:a3dcf6f1ad014bcce7c4489b0b8ba25d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_request_queue.html#a3dcf6f1ad014bcce7c4489b0b8ba25d7">RequestQueue</a> (int requestNum)</td></tr>
 <tr class="separator:a3dcf6f1ad014bcce7c4489b0b8ba25d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c714026df7158f410d18f166d0751ea"><td class="memItemLeft" align="right" valign="top"><a id="a8c714026df7158f410d18f166d0751ea" name="a8c714026df7158f410d18f166d0751ea"></a>
-<a class="el" href="class_request.html">Request</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pop</b> ()</td></tr>
+<tr class="memitem:a8c714026df7158f410d18f166d0751ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_request.html">Request</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_request_queue.html#a8c714026df7158f410d18f166d0751ea">pop</a> ()</td></tr>
 <tr class="separator:a8c714026df7158f410d18f166d0751ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92f9fab0820bb4be02b7fbdf8e7fe106"><td class="memItemLeft" align="right" valign="top"><a id="a92f9fab0820bb4be02b7fbdf8e7fe106" name="a92f9fab0820bb4be02b7fbdf8e7fe106"></a>
-<a class="el" href="class_request.html">Request</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>front</b> ()</td></tr>
+<tr class="memitem:a92f9fab0820bb4be02b7fbdf8e7fe106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_request.html">Request</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_request_queue.html#a92f9fab0820bb4be02b7fbdf8e7fe106">front</a> ()</td></tr>
 <tr class="separator:a92f9fab0820bb4be02b7fbdf8e7fe106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2a2a546ac5579e45ca11f433a8a804c"><td class="memItemLeft" align="right" valign="top"><a id="ac2a2a546ac5579e45ca11f433a8a804c" name="ac2a2a546ac5579e45ca11f433a8a804c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> ()</td></tr>
+<tr class="memitem:ac2a2a546ac5579e45ca11f433a8a804c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_request_queue.html#ac2a2a546ac5579e45ca11f433a8a804c">size</a> ()</td></tr>
 <tr class="separator:ac2a2a546ac5579e45ca11f433a8a804c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4a2a3fc1b9d14cf244d7d53817b35db"><td class="memItemLeft" align="right" valign="top"><a id="aa4a2a3fc1b9d14cf244d7d53817b35db" name="aa4a2a3fc1b9d14cf244d7d53817b35db"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>push</b> (<a class="el" href="class_request.html">Request</a> *req)</td></tr>
+<tr class="memitem:aa4a2a3fc1b9d14cf244d7d53817b35db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_request_queue.html#aa4a2a3fc1b9d14cf244d7d53817b35db">push</a> (<a class="el" href="class_request.html">Request</a> *req)</td></tr>
 <tr class="separator:aa4a2a3fc1b9d14cf244d7d53817b35db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -101,6 +98,142 @@ Public Attributes</h2></td></tr>
 std::queue&lt; <a class="el" href="class_request.html">Request</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>requestQueue</b></td></tr>
 <tr class="separator:a4bf479eb5e47fcf7ae8eeb1360943501"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Class to store request pointers in a queue </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3dcf6f1ad014bcce7c4489b0b8ba25d7" name="a3dcf6f1ad014bcce7c4489b0b8ba25d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dcf6f1ad014bcce7c4489b0b8ba25d7">&#9670;&#160;</a></span>RequestQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RequestQueue::RequestQueue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>requestNum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Generates specified number of requests upon creation. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a92f9fab0820bb4be02b7fbdf8e7fe106" name="a92f9fab0820bb4be02b7fbdf8e7fe106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f9fab0820bb4be02b7fbdf8e7fe106">&#9670;&#160;</a></span>front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_request.html">Request</a> * RequestQueue::front </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the request at the front of the queue </p>
+
+</div>
+</div>
+<a id="a8c714026df7158f410d18f166d0751ea" name="a8c714026df7158f410d18f166d0751ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c714026df7158f410d18f166d0751ea">&#9670;&#160;</a></span>pop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_request.html">Request</a> * RequestQueue::pop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Pops from the front of the queue, and returns the popped request </p>
+
+</div>
+</div>
+<a id="aa4a2a3fc1b9d14cf244d7d53817b35db" name="aa4a2a3fc1b9d14cf244d7d53817b35db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4a2a3fc1b9d14cf244d7d53817b35db">&#9670;&#160;</a></span>push()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RequestQueue::push </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_request.html">Request</a> *&#160;</td>
+          <td class="paramname"><em>req</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Adds to the queue </p>
+
+</div>
+</div>
+<a id="ac2a2a546ac5579e45ca11f433a8a804c" name="ac2a2a546ac5579e45ca11f433a8a804c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2a2a546ac5579e45ca11f433a8a804c">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RequestQueue::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the size of the queue </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="request_classes_8h_source.html">requestClasses.h</a></li>
 </ul>

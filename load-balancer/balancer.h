@@ -8,20 +8,32 @@
 
 #include "requestClasses.h"
 
+/**
+ * Contains WebServer Data
+*/
 class WebServer {
   public:
-    Request *currentRequest;
+    Request* currentRequest; //!< Request pointer for the current request. Nullptr if none.
 
+    /**
+     * Initializes WebServer with no request
+    */
     WebServer()
     {
       currentRequest = nullptr;
     }
 
+    /**
+     * Initializes WebServer with given request
+    */
     void setCurrentRequest(Request *req)
     {
       this->currentRequest = req;
     }
 
+    /**
+     * If the webserver has a current request, return true if the time has been exceeded. False, otherwise.
+    */
     bool checkRequest(int currTime)
     {
       if (this->currentRequest != nullptr)

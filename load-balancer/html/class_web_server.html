@@ -76,22 +76,109 @@ $(function() {
   <div class="headertitle"><div class="title">WebServer Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="balancer_8h_source.html">balancer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3bf286e9dd12ec1f34ef3c760eaa353c"><td class="memItemLeft" align="right" valign="top"><a id="a3bf286e9dd12ec1f34ef3c760eaa353c" name="a3bf286e9dd12ec1f34ef3c760eaa353c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setCurrentRequest</b> (<a class="el" href="class_request.html">Request</a> *req)</td></tr>
+<tr class="memitem:ad053f4e1808a3c10c7522d0dbbbc031a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_web_server.html#ad053f4e1808a3c10c7522d0dbbbc031a">WebServer</a> ()</td></tr>
+<tr class="separator:ad053f4e1808a3c10c7522d0dbbbc031a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf286e9dd12ec1f34ef3c760eaa353c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_web_server.html#a3bf286e9dd12ec1f34ef3c760eaa353c">setCurrentRequest</a> (<a class="el" href="class_request.html">Request</a> *req)</td></tr>
 <tr class="separator:a3bf286e9dd12ec1f34ef3c760eaa353c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d9de946e443d3974a574d9b9882b5fb"><td class="memItemLeft" align="right" valign="top"><a id="a2d9de946e443d3974a574d9b9882b5fb" name="a2d9de946e443d3974a574d9b9882b5fb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkRequest</b> (int currTime)</td></tr>
+<tr class="memitem:a2d9de946e443d3974a574d9b9882b5fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_web_server.html#a2d9de946e443d3974a574d9b9882b5fb">checkRequest</a> (int currTime)</td></tr>
 <tr class="separator:a2d9de946e443d3974a574d9b9882b5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a11e0618c6671d6770e4b1a0b176cebf9"><td class="memItemLeft" align="right" valign="top"><a id="a11e0618c6671d6770e4b1a0b176cebf9" name="a11e0618c6671d6770e4b1a0b176cebf9"></a>
 <a class="el" href="class_request.html">Request</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>currentRequest</b></td></tr>
+<tr class="memdesc:a11e0618c6671d6770e4b1a0b176cebf9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_request.html">Request</a> pointer for the current request. Nullptr if none. <br /></td></tr>
 <tr class="separator:a11e0618c6671d6770e4b1a0b176cebf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Contains <a class="el" href="class_web_server.html">WebServer</a> Data </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad053f4e1808a3c10c7522d0dbbbc031a" name="ad053f4e1808a3c10c7522d0dbbbc031a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad053f4e1808a3c10c7522d0dbbbc031a">&#9670;&#160;</a></span>WebServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WebServer::WebServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Initializes <a class="el" href="class_web_server.html">WebServer</a> with no request </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2d9de946e443d3974a574d9b9882b5fb" name="a2d9de946e443d3974a574d9b9882b5fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d9de946e443d3974a574d9b9882b5fb">&#9670;&#160;</a></span>checkRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool WebServer::checkRequest </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>currTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >If the webserver has a current request, return true if the time has been exceeded. False, otherwise. </p>
+
+</div>
+</div>
+<a id="a3bf286e9dd12ec1f34ef3c760eaa353c" name="a3bf286e9dd12ec1f34ef3c760eaa353c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf286e9dd12ec1f34ef3c760eaa353c">&#9670;&#160;</a></span>setCurrentRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WebServer::setCurrentRequest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_request.html">Request</a> *&#160;</td>
+          <td class="paramname"><em>req</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Initializes <a class="el" href="class_web_server.html">WebServer</a> with given request </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="balancer_8h_source.html">balancer.h</a></li>
 </ul>

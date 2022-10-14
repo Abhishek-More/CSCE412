@@ -8,16 +8,14 @@
 */
 class Request {
 public:
-  int time;
-  int origTime;
-  int startTime;
-  std::string toIP;
-  std::string fromIP;
+  int time; //!< Length of time the request needs to complete. Upon construction, it will be a random integer from 1-500 
+  int startTime; //!< Clock cycle when the request began
+  std::string toIP; //!< Destination IP
+  std::string fromIP; //!< Origin IP
 
   Request()
   {
     this->time = rand() % 500 + 1;
-    this->origTime = this->time;
     this->toIP = this->generateIP();
     this->fromIP = this->generateIP();
   }
@@ -25,12 +23,14 @@ public:
   Request(int time, int startTime, std::string toIP, std::string fromIP)
   {
     this->time = time;
-    this->origTime = time;
     this->startTime = startTime;
     this->toIP = toIP;
     this->fromIP = fromIP;
   }
 
+  /**
+   * Generates random IP address for origin or destination  
+  */
   std::string generateIP()
   {
     std::string ip = "";
@@ -43,6 +43,9 @@ public:
   }
 };
 
+/**
+ * Class to store request pointers in a queue
+*/
 class RequestQueue
 {
 public:
@@ -53,6 +56,9 @@ public:
 
   }
 
+  /**
+   * Generates specified number of requests upon creation.
+  */
   RequestQueue(int requestNum)
   {
     std::cout << "STARTING REQUESTS" << std::endl;
@@ -63,6 +69,9 @@ public:
     }
   }
 
+  /**
+   * Pops from the front of the queue, and returns the popped request
+  */
   Request* pop()
   {
     Request* front = requestQueue.front();
@@ -70,6 +79,9 @@ public:
     return front;
   }
 
+  /**
+   * Returns the request at the front of the queue
+  */
   Request* front()
   {
     if (requestQueue.size() == 0)
@@ -79,10 +91,16 @@ public:
     return this->requestQueue.front();
   }
 
+  /**
+   * Returns the size of the queue
+  */
   int size() {
     return requestQueue.size();
   }
 
+  /**
+   * Adds to the queue
+  */
   void push(Request* req)
   {
     return requestQueue.push(req);
